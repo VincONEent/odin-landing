@@ -10,33 +10,55 @@ header{
 .mainText{
     font-size: 48px;
     font-weight: extra-bold;
-    /*color : #F9FAF8; */
+    color : #F9FAF8;
+    justify-content: center;
 }
 .subText{
     font-size: 18px;
+    color : #E5E7EB;
 
+}
+.bottomHeader{
+    width :max-content;
+    height:25px;
+    background-color: #1F2937; 
 }
 .logo{
     font-size : 24px;
+    padding : 12px;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    color : #F9FAF8 ;
 }
 .link{
     font-size: 18px;
+    color : #F9FAF8 ;
 }
 .top{
     display : flex;
+    background-color: #1F2937;
 }
 .mainHeader{
     display : flex;
+    background-color: #1F2937;
 }
 .gauche{
     display : flex;
     flex-direction: column;
+    background-color: #1F2937;
+    padding-bottom: 30px;
 }
+
+.droite{
+    display : flex;
+    flex :1;
+    padding-bottom: 30px;
+}
+
 ul{
     list-style-type: none; /*Remove the small dot at the start of the list*/
+    background-color: #1F2937;
 }
 
 ul > li {
@@ -47,4 +69,16 @@ ul > li {
 
 .separator{ /*That class only exist to allow the stretching of the flex with a "filler"*/
     flex-grow: 1;
+    background-color: #1F2937;
+  }
+
+  .button{
+    background-color: #3882F6;
+    color : #F9FAF8 ;
+    font-size: 18px;
+    justify-content: center;
+  }
+  
+  .signUp{
+    display : flex;
   }
